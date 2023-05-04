@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 import { HomePage } from "../Pages/HomePage";
 import { Jewelery } from "../Pages/Jewelery";
-import { Watches } from "../Pages/Watches";
 import { Gifts } from "../Pages/Gifts";
 import { Contact } from "../Pages/Contact";
 import { Account } from "../Pages/Account";
 import { Bag } from "../Pages/Bag";
+import Watches from "../Pages/Watches";
 
 function MainRoutes(){
     return (
