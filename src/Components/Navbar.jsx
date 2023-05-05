@@ -20,7 +20,7 @@ const links=[
 
 
 //styling for navigation bar
-function Navbar(){
+const Navbar=()=>{
   
 
     const defaultLinkStyle={textDecoration:"none",color:"white"}
