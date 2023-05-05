@@ -9,7 +9,5 @@
   margin: auto;
   font-family: "Lucida Console", "Courier New", monospace;
   background-color:#404040;
-  position: fixed;
-  z-index: 1;
   font-size: small;
 }
