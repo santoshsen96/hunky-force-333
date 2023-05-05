@@ -20,6 +20,7 @@ import { GetWacthes } from "../Redux/WatchReducer/action";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { MdOutlineErrorOutline } from "react-icons/md";
 import "../CSS/Watches.css";
+import { RxDotFilled } from "react-icons/rx";
 
 const Watches = () => {
   const { isLoading, isError } = useSelector((store) => store.watchReducer);
@@ -58,10 +59,15 @@ const Watches = () => {
   }, [location.search, page]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div style={{ marginBottom: "40px" }}>
+    <div style={{ marginBottom: "40px", paddingTop: "70px" }}>
+      <img
+        style={{ padding: "10px", width: "100%", height: "400px" }}
+        src="https://i.postimg.cc/SNHzQPWH/watch-Bnner.jpg"
+        alt="Jwellery Banner"
+      />
       <WatchNavbar />
       <Box w="80%" m="auto" mt="20px">
-        <Breadcrumb separator="-">
+        <Breadcrumb separator={<RxDotFilled />}>
           <BreadcrumbItem>
             <BreadcrumbLink href="/">Home</BreadcrumbLink>
           </BreadcrumbItem>
@@ -114,4 +120,3 @@ const Watches = () => {
 };
 
 export default Watches;
-
