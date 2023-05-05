@@ -1,6 +1,7 @@
 import React from "react";
 import { MdClose } from "react-icons/md";
 import "./Cartitems.scss";
+import { useSelector } from "react-redux";
 export const data = [
   {
     id: 1,
@@ -30,10 +31,12 @@ export const data = [
   },
 ];
 const Cartitems = () => {
+  const { watches } = useSelector((store) => store.watchReducer);
+  console.log(watches);
   return (
     <>
       <div className="cart-products">
-        {data.map((it) => (
+        {watches.map((it) => (
           <div className="product-container" key={it.id}>
             <div className="image-container">
               <img src={it.image} alt={it.brand} />
