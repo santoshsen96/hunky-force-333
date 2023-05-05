@@ -148,6 +148,7 @@ margin-left:10px;
     width:78%;
     margin-left:180px;
     
+    
 }
 
 .grid>div{
@@ -172,6 +173,7 @@ margin-left:10px;
     grid-template-columns:repeat(2,1fr);
     margin:auto;
     background-color:black;
+    margin-top:50px;
 
 
 }
@@ -193,5 +195,132 @@ margin-left:10px;
     font-style:italic;
 
 }
+/* top section */
+.topsection{
+    height:750px;
+    width:100%;
+    margin:auto;
+    border:0px solid black;
+
+}
+.topsection>img{
+    width:100%;
+}
+/* categories */
+.categoriez{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    margin:auto;
+    background-color:white;
+    border:0px solid black;
+    margin-bottom: 80px;
+
+}
+.categories>div{
+    border:0px solid black;
+
+}
+
+.categoriez>div h3{
+    font-weight: 500;
+    text-align:left;
+    padding-left:100px;
+}
+
+.categoriez>div h1{
+    font-weight: bold;
+    font-size:x-large;
+    font-style: italic;
+    text-align:left;
+    padding-left:100px;
+}
+
+.categoriez>div h3:hover{
+    text-decoration: underline;
+
+}
+
+.categoriez>div p{
+    text-align:left;
+    padding-left:100px;
+    font-style:italic;
+    font-size:small;
+
+}
+.categoriez>div button{
+    margin-right:440px;
+    margin-top:100px;
+}
+
+.categoriez>div button:hover{
+    background-color:black;
+    padding:10px 15px 10px 15px;
+    color:white;
+}
 
 
+
+/* about */
+.about{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    margin:auto;
+    background-color:white;
+    border:0px solid black; 
+    margin-top:100px;
+}
+.about>div h1{
+    text-align:center;
+    font-size: x-large;
+    font-weight: 500;
+    padding-left:100px;
+    font-style: oblique;
+}
+.about>div p{
+    text-align:center;
+    font-weight: 300;
+    padding-left:100px;
+    font-style:oblique;
+}
+.about>div img{
+    width:80%;
+    margin-left:100px;
+}
+
+
+
+
+
+/* MEETING */
+.meeting{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    margin:auto;
+    background-color:white;
+    border:0px solid black; 
+    margin-top:100px;
+}
+
+.meeting>div img{
+    width:80%;
+    margin-left:80px;
+}
+.meeting>div h1{
+    text-align:center;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: oblique;
+}
+
+.meeting>div p{
+    text-align:center;
+    font-weight: 300;
+    font-style: oblique;
+}
+
+.meeting>div button:hover{
+    background-color:black;
+    padding:10px 15px 10px 15px;
+    color:white;
+
+}

@@ -1,10 +1,11 @@
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 
-
+{/* <Link to=""><img src="https://i.postimg.cc/v8gZQwyy/gleams.png" alt=""/></Link> */}
 const links=[
+    
     {path:"/",title:"Home"},
     {path:"/Jewelery",title:"Jewelery"},
     {path:"/Watches",title:"Watches"},
@@ -21,8 +22,6 @@ const links=[
 
 //styling for navigation bar
 const Navbar=()=>{
-  
-
     const defaultLinkStyle={textDecoration:"none",color:"white"}
     const activeLinkStyle={textDecoration:"none",color:"yellow"}
     return(
