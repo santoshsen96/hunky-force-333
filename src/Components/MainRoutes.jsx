@@ -6,21 +6,22 @@ import { Contact } from "../Pages/Contact";
 import { Account } from "../Pages/Account";
 import { Bag } from "../Pages/Bag";
 import Watches from "../Pages/Watches";
+import JwellerySinglePage from "./JwellerySinglePage";
+import SingleWatchesPage from "./SingleWatchesPage";
 
-function MainRoutes(){
-    return (
-
-        <Routes>
-              <Route path="/" element={<HomePage/>}/>
-              <Route path="/Jewelery" element={<Jewelery/>}/>
-              <Route path="/Watches" element={<Watches/>}/>
-              <Route path="/Gifts" element={<Gifts/>}/>
-              <Route path="/Contact" element={<Contact/>}/>
-              <Route path="/Account" element={<Account/>}/>
-              <Route path="/Bag" element={<Bag/>}/>
-
-        </Routes>
-
-    )
+function MainRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/Jewelery" element={<Jewelery />} />
+      <Route path="/Watches" element={<Watches />} />
+      <Route path="/Gifts" element={<Gifts />} />
+      <Route path="/Contact" element={<Contact />} />
+      <Route path="/Account" element={<Account />} />
+      <Route path="/Bag" element={<Bag />} />
+      <Route path="/Jewelery/:id" element={<JwellerySinglePage />} />
+      <Route path="/Watches/:id" element={<SingleWatchesPage />} />
+    </Routes>
+  );
 }
 export default MainRoutes;

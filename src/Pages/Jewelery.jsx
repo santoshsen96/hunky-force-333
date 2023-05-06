@@ -59,7 +59,7 @@ export const Jewelery = () => {
   }, [location.search, page]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div style={{ marginBottom: "20px", paddingTop: "70px" }}>
+    <div style={{ marginBottom: "20px" }}>
       <img
         style={{ padding: "10px", width: "100%", height: "400px" }}
         src="https://i.postimg.cc/kGxvFdF6/Jwellery-Banner.jpg"

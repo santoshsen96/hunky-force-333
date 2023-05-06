@@ -59,7 +59,7 @@ const Watches = () => {
   }, [location.search, page]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div style={{ marginBottom: "40px", paddingTop: "70px" }}>
+    <div style={{ marginBottom: "40px" }}>
       <img
         style={{ padding: "10px", width: "100%", height: "400px" }}
         src="https://i.postimg.cc/SNHzQPWH/watch-Bnner.jpg"

@@ -2,9 +2,11 @@ import { SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import { useSelector } from "react-redux";
 import "../CSS/JwelleryList.css";
+import { useNavigate } from "react-router";
 
 const JwelleryList = () => {
   const { jwellery } = useSelector((store) => store.jwelleryReducer);
+  const navigate = useNavigate();
 
   return (
     <SimpleGrid
@@ -22,7 +24,10 @@ const JwelleryList = () => {
               <img src={item.image} alt={item.title} />
             </div>
             <div className="category-jwellery"> {item.brand} </div>
-            <div className="heading-jwellery">
+            <div
+              className="heading-jwellery"
+              onClick={() => navigate(`/Jewelery/${item.id}`)}
+            >
               {" "}
               {item.title}
               <div className="author-jwellery"> ₹ {item.price}</div>
