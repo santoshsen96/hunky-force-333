@@ -2,6 +2,7 @@ import React from 'react';
 import "./Homepage.css";
 import {MdKeyboardArrowLeft} from "react-icons/md";
 import {MdKeyboardArrowRight} from "react-icons/md";
+import { Link } from 'react-router-dom';
 
 export const HomePage = (props) => {
 
@@ -36,7 +37,7 @@ export const HomePage = (props) => {
   return (
     <>
     <div className="topsection">
-        
+      <img src="https://i.postimg.cc/vZwjMg9w/top-bannerr.png" alt=""/> 
     </div>
 
 {/* new collection section */}
@@ -66,7 +67,21 @@ export const HomePage = (props) => {
     </div>
        
        {/* categories */}
-       <div className='categories'></div>
+       <div className='categoriez'>
+        <div><h1>Categories</h1>
+        <p>Discover Our Collection of Jewellery by Categories</p><br></br><br></br>
+        
+        <Link to ="/Jewelery"><h3>Rings</h3></Link><br></br>
+        <Link to ="/Jewelery"><h3>Bracelets</h3></Link><br></br>
+         <Link to ="/Jewelery"><h3>Earring</h3></Link><br></br>
+          <Link to ="/Jewelery"><h3>Necklace & Pendants</h3></Link><br></br>
+           <Link to ="/Watches"><h3>Watches</h3></Link><br></br>
+            <Link to ="/Jewelery"><h3>Men's Jewelery</h3></Link><br></br>
+
+            <button><Link to="">ALL CATEGORIES</Link></button>
+            </div>
+        <div><img src="https://i.postimg.cc/mD8kW1rb/half-facee.png"/></div>
+       </div>
 
 {/* Bessellers */}
 <div className='bessellers'>
@@ -77,16 +92,16 @@ export const HomePage = (props) => {
 {/* grid section */}
 
 <div className='grid'>
-    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pab5_800x.jpg?v=1517262828"/>
+    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pab5_800x.jpg?v=1517262828" alt=""/>
     <h3>Amber Pendenant</h3>
     </div>
-    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Ptq9_800x.jpg?v=1517262865"/>
+    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Ptq9_800x.jpg?v=1517262865" alt=""/>
     <h3>Turquoise Pendant</h3>
     <p></p></div>
-    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pam5_800x.jpg?v=1517262834"/>
+    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pam5_800x.jpg?v=1517262834" alt=""/>
     <h3>Multi Stone Pendant</h3>
     </div>
-    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pmul1_800x.jpg?v=1517262849"/>
+    <div><img src="https://cdn.shopify.com/s/files/1/2942/2830/products/Pmul1_800x.jpg?v=1517262849" alt=""/>
     <h3>Ammonite Pendant</h3>
     </div>
 </div>
@@ -95,7 +110,7 @@ export const HomePage = (props) => {
 {/* gift section */}
 
 <div className='gifts'>
-    <div><img src="https://img.freepik.com/free-photo/3d-gift-box-scene-with-clouds_173207-1895.jpg?size=626&ext=jpg&ga=GA1.1.751070098.1683189659&semt=ais"/></div>
+    <div><img src="https://img.freepik.com/free-photo/3d-gift-box-scene-with-clouds_173207-1895.jpg?size=626&ext=jpg&ga=GA1.1.751070098.1683189659&semt=ais" alt=""/></div>
     <div><h1>Gifts</h1>
     <h5>Looking for the perfect gifts?</h5>
     <h5>Look no further!Our ectensive collections of jewellery gifts</h5>
@@ -106,7 +121,26 @@ export const HomePage = (props) => {
 
 
 
+{/* about section */}
 
+<div className='about'>
+    <div><h1>About</h1>
+    <p>Gleams is more than just Gliding</p><br/><br/>
+    <p>Gleams works with the vision of offering tastefully designed jewellery at revolutionary prices. This is achieved by eliminating all inefficiencies which result in drastically reduced costs. With Gleams, users stand to save as much as 30% when compared to prices in the market.
+Our website is designed to bridge the vast gap between the virtual and the physical world. This has been attained with the help of the Virtual Try-on feature that permits the users to virtually put on 1000s of earrings to see just how they look when placed on the ears.
+With over 100 thousand downloads, the CaratLane app has emerged to be one of the most liked applications in the jewellery circuit.</p><br/>
+<p>Gleams provides the exquisite craftsmanship of beautiful jewellery designs such as rings, earrings, pendants, necklace, chains, bangles, bracelets, mangalsutra, nose pins. Apart from jewellery, Gleams offers 22k (916) and 24k (995) gold coins with certification and the guarantee of a BIS Hallmarked stamp.</p></div>
+    <div><img src="https://i.postimg.cc/W1GrWPKT/about.png" alt=""/></div>
+</div>
+{/* meeting section */}
+
+<div className='meeting'>
+    <div><img src='https://i.postimg.cc/JznDqLRy/meeting.png' alt=''/></div>
+    <div><h1>Arrange a Meeting with Personal Consultant</h1>
+    <p>Find a Boutique Near or Visit Our Flagship Store</p><br></br><br></br>
+    <button><Link to="">LEARN MORE</Link></button>
+    </div>
+</div>
 
 
 </>

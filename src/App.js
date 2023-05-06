@@ -1,5 +1,4 @@
-
-import Navbar from './Components/Navbar';
+import Navbar from "./Components/Navbar";
 import "./App.css";
 import MainRoutes from "./Components/MainRoutes";
 import Admindashboard from './Components/AdminDashboard';
@@ -9,10 +8,8 @@ import Admin from './Pages/Admin.jsx';
 function App() {
   return (
     <div className="App">
-       {/* <Navbar/> */}
-      <MainRoutes/> 
-     
-     
+      <Navbar />
+      <MainRoutes />
     </div>
   );
 }

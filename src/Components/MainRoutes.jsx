@@ -6,6 +6,9 @@ import { Contact } from "../Pages/Contact";
 import { Account } from "../Pages/Account";
 import { Bag } from "../Pages/Bag";
 import Watches from "../Pages/Watches";
+import JwellerySinglePage from "./JwellerySinglePage";
+import SingleWatchesPage from "./SingleWatchesPage";
+
 import Admin from "../Pages/Admin";
 import { AdminProductsWatches } from "../Pages/AdminProductsWatches";
 import { AdminProductsJewellery } from "../Pages/AdminProductsJewellery";
@@ -28,8 +31,13 @@ function MainRoutes(){
               <Route path="/admin-product-watch" element={<AdminProductsWatches/>} />
               <Route path="/admin-product-jewellery" element={<AdminProductsJewellery/>} />
               <Route path="admin-product-gift" element={<AdminProductsGifts/>} />
+              <Route path="/Jewelery/:id" element={<JwellerySinglePage />} />
+              <Route path="/Watches/:id" element={<SingleWatchesPage />} />
+             
         </Routes>
 
     )
-}
+
+
+    }
 export default MainRoutes;
