@@ -236,7 +236,7 @@ margin-left:10px;
 }
 
 .categoriez>div h3:hover{
-    text-decoration: underline;
+    text-decoration: underline ;
 
 }
 
@@ -252,10 +252,16 @@ margin-left:10px;
     margin-top:100px;
 }
 
-.categoriez>div button:hover{
-    background-color:black;
+.categoriez>div button{
+background-color:black;
     padding:10px 15px 10px 15px;
     color:white;
+}
+
+.categoriez>div button:hover{
+    background-color:#D7B14A;
+    padding:10px 15px 10px 15px;
+    color:black;
 }
 
 
@@ -317,10 +323,15 @@ margin-left:10px;
     font-weight: 300;
     font-style: oblique;
 }
-
-.meeting>div button:hover{
+.meeting>div button{
     background-color:black;
     padding:10px 15px 10px 15px;
     color:white;
+}
+
+.meeting>div button:hover{
+    background-color:#D7B14A;
+    padding:10px 15px 10px 15px;
+    color:black;
 
 }
