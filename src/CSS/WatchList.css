@@ -37,6 +37,7 @@
 
 .heading:hover {
   cursor: pointer;
+  color: gray;
 }
 
 .author {

@@ -1073,7 +1073,58 @@
       "weight": 10
     }
   ],
-  "cart": [],
+  "cart": [
+    {
+      "id": 5,
+      "image": "https://cdn.augrav.com/online/jewels/2016/03/25174643/gold-and-platinum-fusion-wedding-ring-1.jpg",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 13215,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
+    },
+    {
+      "id": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHei71aMUD76ff0UU-SKdTRdd2fPD6sA8U5Q&usqp=CAU",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 17435,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
+    },
+    {
+      "id": 52,
+      "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/m/e/mens-classic-leather-black-dial-watch-emporio-armani-ar1732_1.jpg",
+      "title": "Men's Classic Leather Black Dial",
+      "brand": "Emporio Armani",
+      "gender": "Mens",
+      "price": 103.98,
+      "discount": "41%",
+      "category": "Mens Watch",
+      "description": "The Emporio Armani Classic series watch features a stainless steel 41 mm case, with a fixed bezel a black dial and a scratch resistant mineral crystal.The 20 mm leather band is fitted with a tang clasp .This beautiful wristwatch, powered by quartz movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 100 feet/30 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection."
+    },
+    {
+      "id": 11,
+      "image": "https://image.reliancejewels.com/Jewels/images/productImages/433/floral-design-14-kt-gold-diamond-ring-for-women-large_9751174153fd168d0c00f5ea83ab204b.jpg",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 21215,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
+    }
+  ],
   "user": [],
   "Products": [
     {
@@ -1626,7 +1677,6 @@
       "category": "Womens Watch",
       "description": "The Fossil Riley series watch features a stainless steel 38 mm case, with a fixed bezel a silver dial and a scratch resistant mineral crystal.The 18 mm stainless steel band is fitted with a deployment clasp .This beautiful wristwatch, powered by quartz movement, supports: date, day, hour, minute, second, 24 hour functions.This watch has a water resistance of up to 330 feet/100 meters, suitable for recreational surfing, swimming, snorkeling, sailing and water sports.This stylish timepiece is sure to complete any woman's collection."
     },
-
     {
       "id": 1,
       "image": "https://image.reliancejewels.com/Jewels/images/productImages/433/floral-design-14-kt-gold-diamond-ring-for-women-large_9751174153fd168d0c00f5ea83ab204b.jpg",

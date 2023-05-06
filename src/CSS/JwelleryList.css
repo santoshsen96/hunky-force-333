@@ -38,6 +38,7 @@
 
 .heading-jwellery:hover {
   cursor: pointer;
+  color: gray;
 }
 
 .author-jwellery {
