@@ -9,19 +9,35 @@ import Watches from "../Pages/Watches";
 import JwellerySinglePage from "./JwellerySinglePage";
 import SingleWatchesPage from "./SingleWatchesPage";
 
-function MainRoutes() {
-  return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/Jewelery" element={<Jewelery />} />
-      <Route path="/Watches" element={<Watches />} />
-      <Route path="/Gifts" element={<Gifts />} />
-      <Route path="/Contact" element={<Contact />} />
-      <Route path="/Account" element={<Account />} />
-      <Route path="/Bag" element={<Bag />} />
-      <Route path="/Jewelery/:id" element={<JwellerySinglePage />} />
-      <Route path="/Watches/:id" element={<SingleWatchesPage />} />
-    </Routes>
-  );
-}
+import Admin from "../Pages/Admin";
+import { AdminProductsWatches } from "../Pages/AdminProductsWatches";
+import { AdminProductsJewellery } from "../Pages/AdminProductsJewellery";
+import { AdminProductsGifts } from "../Pages/AdminProductsGifts";
+
+
+
+function MainRoutes(){
+    return (
+
+        <Routes>
+              <Route path="/" element={<HomePage/>}/>
+              <Route path="/Jewelery" element={<Jewelery/>}/>
+              <Route path="/Watches" element={<Watches/>}/>
+              <Route path="/Gifts" element={<Gifts/>}/>
+              <Route path="/Contact" element={<Contact/>}/>
+              <Route path="/Account" element={<Account/>}/>
+              <Route path="/Bag" element={<Bag/>}/>
+              <Route path="/admin" element={<Admin/>} />
+              <Route path="/admin-product-watch" element={<AdminProductsWatches/>} />
+              <Route path="/admin-product-jewellery" element={<AdminProductsJewellery/>} />
+              <Route path="admin-product-gift" element={<AdminProductsGifts/>} />
+              <Route path="/Jewelery/:id" element={<JwellerySinglePage />} />
+              <Route path="/Watches/:id" element={<SingleWatchesPage />} />
+             
+        </Routes>
+
+    )
+
+
+    }
 export default MainRoutes;
