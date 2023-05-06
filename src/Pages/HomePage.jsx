@@ -71,12 +71,12 @@ export const HomePage = (props) => {
         <div><h1>Categories</h1>
         <p>Discover Our Collection of Jewellery by Categories</p><br></br><br></br>
         
-        <Link to =""><h3>Rings</h3></Link><br></br>
-        <Link to =""><h3>Bracelets</h3></Link><br></br>
-         <Link to =""><h3>Earring</h3></Link><br></br>
-          <Link to =""><h3>Necklace & Pendants</h3></Link><br></br>
-           <Link to =""><h3>Watches</h3></Link><br></br>
-            <Link to =""><h3>Men's Jewelery</h3></Link><br></br>
+        <Link to ="/Jewelery"><h3>Rings</h3></Link><br></br>
+        <Link to ="/Jewelery"><h3>Bracelets</h3></Link><br></br>
+         <Link to ="/Jewelery"><h3>Earring</h3></Link><br></br>
+          <Link to ="/Jewelery"><h3>Necklace & Pendants</h3></Link><br></br>
+           <Link to ="/Watches"><h3>Watches</h3></Link><br></br>
+            <Link to ="/Jewelery"><h3>Men's Jewelery</h3></Link><br></br>
 
             <button><Link to="">ALL CATEGORIES</Link></button>
             </div>
