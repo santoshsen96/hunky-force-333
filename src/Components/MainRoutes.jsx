@@ -8,8 +8,6 @@ import { Bag } from "../Pages/Bag";
 import Watches from "../Pages/Watches";
 import JwellerySinglePage from "./JwellerySinglePage";
 import SingleWatchesPage from "./SingleWatchesPage";
-import Shipping from "./shippingpage/Shipping";
-import Payment from "./shippingpage/payment/Payment";
 
 function MainRoutes() {
   return (
@@ -23,8 +21,6 @@ function MainRoutes() {
       <Route path="/Bag" element={<Bag />} />
       <Route path="/Jewelery/:id" element={<JwellerySinglePage />} />
       <Route path="/Watches/:id" element={<SingleWatchesPage />} />
-      <Route path="/shipping" element={<Shipping />} />
-      <Route path="/payment" element={<Payment />} />
     </Routes>
   );
 }
