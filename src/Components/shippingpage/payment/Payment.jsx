@@ -58,14 +58,6 @@ function Payment() {
     <div>
       <div className="payment" id="payment">
         <div style={{ display: pay }} id="abc" className="abc">
-          <div className="header">
-            <div>
-              <h2>Checkout</h2>
-            </div>
-            <div>
-              <h3 onClick={handleDetails}>Order Total ₹{payment_total}</h3>
-            </div>
-          </div>
           <div className="method">
             <div className="lead">
               <h1>How do you want to pay?</h1>
@@ -192,13 +184,6 @@ function Payment() {
               </div>
             </div>
             <div className="Payovertime">
-              <div className="Payovertime_heading">
-                <h3>Pay over time.</h3>
-                <p>See all available EMI and No Cost EMI§ options</p>
-              </div>
-              <button onClick={handledisplayemi} className="Payovertime_card">
-                <h3>Credit Card EMI</h3>
-              </button>
               <div style={{ display: emi }} className="atm">
                 <div className="atm_main">
                   <div className="atm_main_heading">
@@ -233,11 +218,9 @@ function Payment() {
                       <span>
                         <b>
                           {addr.address1},{addr.address2}
-                        </b>
-                        <b>{addr.city}</b>
-                        <b>{addr.pincode}</b>
-                        <b>{addr.statename}</b>
-                        <b>{addr.country}</b>
+                        </b>{" "}
+                        <b>{addr.city} </b> <b> {addr.pincode}</b>{" "}
+                        <b> {addr.statename} </b> <b> {addr.country}</b>
                       </span>
                     </div>
                   </div>
@@ -245,31 +228,6 @@ function Payment() {
               </div>
             </div>
           </div>
-          <div className="pan">
-            <div>Enter your Tax information</div>
-            <div className="pan_input">
-              <div>
-                <input type="text" placeholder="Enter PAN number" required />
-              </div>
-              <div>
-                <p style={{ padding: "0 20px" }}>
-                  {" "}
-                  A Permanent Account Number is required for orders of ₹200000
-                  or more. It will be included on your electronic receipt for
-                  tax purposes.
-                </p>
-              </div>
-              <div>
-                <p>
-                  {" "}
-                  If you are buying for a business, please note that Apple
-                  cannot add a Business GST number to your invoice. You will
-                  receive a consumer invoice.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div className="review_button">
             <button style={{ display: hidebutton }} onClick={handleOTP}>
               Review Your Order
@@ -294,21 +252,19 @@ function Payment() {
                 <h1>
                   ✅ Your order has been confirmed <span>🎉</span>
                 </h1>
-
-                <div>
+                <div className="address_pop">
                   <div>
-                    {/* <h4> iPhone 14 Pro</h4>
-                    <h4>₹ 189,900</h4> */}
+                    <h2>Order will be deliverd below address!</h2>
                     <h4>
-                      {addr.address1},{addr.address2}
-                      {addr.city}
-                      {addr.pincode}
-                      {addr.statename}
-                      {addr.country}
+                      Address: {addr.address1}, {addr.address2}
                     </h4>
+                    <h3> {addr.city}</h3>
+                    <h3>Pincode: {addr.pincode}</h3>
+                    <h3>State: {addr.statename}</h3>
+                    <h3>Country: {addr.country}</h3>
                   </div>
                   <div className="imgbox">
-                    <img src="https://i.ibb.co/SnNM4tm/Logo.png" alt="" />
+                    <img src="https://i.postimg.cc/YSKBpWR6/gz.png" alt="" />
                   </div>
                 </div>
                 <Link to="/">
@@ -316,11 +272,6 @@ function Payment() {
                 </Link>
               </div>
             </div>
-          </div>
-          <div className="chat">
-            <p>
-              Need Some help?<a href="#">Chat now</a> or call 401966
-            </p>
           </div>
         </div>
         <div className="popup" style={{ display: popup }}>

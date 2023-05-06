@@ -1122,6 +1122,28 @@
       "category": "Rings",
       "description": "Dazzling Divisha Gold Band",
       "weight": 10
+    },
+    {
+      "id": 51,
+      "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/m/e/mens-promaster-diver-polyurethane-dark-blue-dial-watch-citizen-czbn0151-09l_1.jpg",
+      "title": "Men's Promaster Diver Polyurethane Dark Blue Dial Watch",
+      "brand": "Citizen",
+      "gender": "Mens",
+      "price": 224.95,
+      "discount": "40%",
+      "category": "Mens Watch",
+      "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection."
+    },
+    {
+      "id": 66,
+      "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/m/e/mens-recraft-leather-green-dial-watch-seiko-se-snkp27_1.jpg",
+      "title": "Men's ReCraft Leather Green Dial",
+      "brand": "Seiko",
+      "gender": "Mens",
+      "price": 133.98,
+      "discount": "53%",
+      "category": "Mens Watch",
+      "description": "The Seiko ReCraft series watch features a stainless steel 39.5 mm case, with a fixed bezel a green dial and a scratch resistant hardlex crystal.The 22 mm leather band is fitted with a tang clasp .This beautiful wristwatch, powered by a seiko caliber 7s26, Japan made automatic movement, supports: date, day, hour, minute, second functions.This watch has a water resistance of up to 165 feet/50 meters, suitable for short periods of recreational swimming, but not diving or snorkeling.This stylish timepiece is sure to complete any man's collection."
     }
   ],
   "user": [],
