@@ -21,6 +21,8 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import { MdOutlineErrorOutline } from "react-icons/md";
 import "../CSS/Watches.css";
 import { RxDotFilled } from "react-icons/rx";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
 
 const Watches = () => {
   const { isLoading, isError } = useSelector((store) => store.watchReducer);
@@ -59,63 +61,67 @@ const Watches = () => {
   }, [location.search, page]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <div style={{ marginBottom: "40px" }}>
-      <img
-        style={{ padding: "10px", width: "100%", height: "400px" }}
-        src="https://i.postimg.cc/SNHzQPWH/watch-Bnner.jpg"
-        alt="Jwellery Banner"
-      />
-      <WatchNavbar />
-      <Box w="80%" m="auto" mt="20px">
-        <Breadcrumb separator={<RxDotFilled />}>
-          <BreadcrumbItem>
-            <BreadcrumbLink href="/">Home</BreadcrumbLink>
-          </BreadcrumbItem>
-          <BreadcrumbItem isCurrentPage>
-            <BreadcrumbLink href="/wacthes">Wacthes</BreadcrumbLink>
-          </BreadcrumbItem>
-        </Breadcrumb>
-      </Box>
-      {isLoading ? (
-        <div className="wrapper">
-          <div className="circle"></div>
-          <div className="circle"></div>
-          <div className="circle"></div>
-          <div className="shadow"></div>
-          <div className="shadow"></div>
-          <div className="shadow"></div>
-        </div>
-      ) : isError ? (
-        <Heading textAlign={"center"}>
-          <Flex
-            alignItems={"center"}
-            gap="10px"
-            textAlign={"center"}
-            m="80px"
-            ml="40%"
-          >
-            Something Went Wrong <MdOutlineErrorOutline size={"40px"} />
-          </Flex>
-        </Heading>
-      ) : (
-        <WatchList />
-      )}
-      <Box mt="40px">
-        {PageArray.map((index) => {
-          return (
-            <Button
-              key={index}
-              variant={"none"}
-              m="0px 10px"
-              className={page === index ? "page" : ""}
-              onClick={() => setPage(index)}
+    <>
+      <Navbar />
+      <div style={{ marginBottom: "40px", paddingTop: "60px" }}>
+        <img
+          style={{ padding: "10px", width: "100%", height: "400px" }}
+          src="https://i.postimg.cc/SNHzQPWH/watch-Bnner.jpg"
+          alt="Jwellery Banner"
+        />
+        <WatchNavbar />
+        <Box w="80%" m="auto" mt="20px">
+          <Breadcrumb separator={<RxDotFilled />}>
+            <BreadcrumbItem>
+              <BreadcrumbLink href="/">Home</BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbItem isCurrentPage>
+              <BreadcrumbLink href="/wacthes">Wacthes</BreadcrumbLink>
+            </BreadcrumbItem>
+          </Breadcrumb>
+        </Box>
+        {isLoading ? (
+          <div className="wrapper">
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
+          </div>
+        ) : isError ? (
+          <Heading textAlign={"center"}>
+            <Flex
+              alignItems={"center"}
+              gap="10px"
+              textAlign={"center"}
+              m="80px"
+              ml="40%"
             >
-              {index}
-            </Button>
-          );
-        })}
-      </Box>
-    </div>
+              Something Went Wrong <MdOutlineErrorOutline size={"40px"} />
+            </Flex>
+          </Heading>
+        ) : (
+          <WatchList />
+        )}
+        <Box mt="40px" mb="30px">
+          {PageArray.map((index) => {
+            return (
+              <Button
+                key={index}
+                variant={"none"}
+                m="0px 10px"
+                className={page === index ? "page" : ""}
+                onClick={() => setPage(index)}
+              >
+                {index}
+              </Button>
+            );
+          })}
+        </Box>
+        <Footer />
+      </div>
+    </>
   );
 };
 
