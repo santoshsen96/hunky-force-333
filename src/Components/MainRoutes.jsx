@@ -19,6 +19,8 @@ import AdminLogin from "../Pages/AdminLogin";
 import AdminPrivateRoute from "./AdminPrivateRoute";
 import Login from "./Login";
 import SignUP from "./SignUP";
+import Shipping from "./shippingpage/Shipping";
+import Payment from "./shippingpage/payment/Payment";
 
 function MainRoutes() {
   return (
@@ -32,6 +34,8 @@ function MainRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<SignUP />} />
       <Route path="/Bag" element={<Bag />} />
+      <Route path="/shipping" element={<Shipping />} />
+      <Route path="/payment" element={<Payment />} />
       <Route
         path="/admin"
         element={

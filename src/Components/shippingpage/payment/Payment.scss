@@ -156,6 +156,7 @@
       text-align: left;
       button {
         margin-top: 2rem;
+        margin-bottom: 2rem;
         background-image: linear-gradient(-45deg, #6ba9eb, skyblue);
         padding: 20px;
         text-align: center;
@@ -182,6 +183,7 @@
         .otpsubmit {
           background-image: linear-gradient(-45deg, #fbc57d, skyblue);
           padding: 10px;
+          margin-bottom: 2rem;
           text-align: center;
           transition: 0.5s;
           background-size: 200% auto;

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 // import { Navbar } from "../../Components/Navbar";
 import "./Payment.scss";
+import Footer from "../../Footer";
 
 function Payment() {
   let payment_total = localStorage.getItem("payment_total");
@@ -333,6 +334,7 @@ function Payment() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
