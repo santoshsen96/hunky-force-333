@@ -2,9 +2,9 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-.adminsidebar {
-    margin-top: 0%;
-}
+/* .adminsidebar {
+    margin-top: -0%;
+} */
 
 .labels {
     font-size: large;
@@ -29,6 +29,9 @@
 
 .form {
     width: 50%;
+    height: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
 }
 
 .dashboardcont {
@@ -43,12 +46,13 @@
 
 .sidebar {
     width: 18%;
+   margin-top: -3.9%;
 }
 
 .sidebarcont {
     width: 18%;
     background-color: #2d2d2d;
-    margin-top: -3%;
+    
 }
 
 .adminpagedashboardbox {

@@ -17,12 +17,14 @@ import {
     
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { CgShoppingCart } from "react-icons/cg";
 import {SlUser} from "react-icons/sl";
 import {SlHeart} from "react-icons/sl";
-import {useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import Cart from "./cart/Cart";
+import { useDispatch } from 'react-redux';
+import { getProductsgift } from '../Redux/AdminProduct/action';
 
 
 
@@ -39,6 +41,24 @@ const links = [
 
 
 const Navbar = () => {
+    const [query, setQuery] = useState("")
+    const dispatch=useDispatch()
+    let ref=useRef()
+    const paramObj = {
+        params:{
+            q:query 
+        }
+    }
+    useEffect(()=>{
+        if(ref.current){
+            clearTimeout(ref.current)
+        }
+        ref.current=setTimeout(()=>{
+            dispatch(getProductsgift(paramObj))
+        },1000)
+        
+    },[query]) //for search
+
   const [showcart, setshowcart] = useState(false);
     const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -53,7 +73,7 @@ const handlecart = () => {
     
 
     return (
-        <Box style={{position:'sticky'}}>
+        <Box style={{position:'fixed', width:'100%', top:"0",zIndex:"99"}}>
             <Box bg={useColorModeValue('#404040;', '#404040;')} px={7} >
                 <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
                     <IconButton
@@ -66,7 +86,9 @@ const handlecart = () => {
                     />
                     <HStack spacing={8} alignItems={'center'}>
                         <Box>
+                            <Link to="/">
                             <Image src="https://i.postimg.cc/YSKBpWR6/gz.png" width={200} alt=""/>
+                            </Link>
                         </Box>
                         <HStack
                             as={'nav'}
@@ -83,7 +105,7 @@ const handlecart = () => {
                             ))}
                         </HStack>
                     </HStack>
-                    <Input placeholder='Search here...' width={400}  />
+                    <Input placeholder='Search here...' width={400} onChange={(e)=>setQuery(e.target.value)}  />
                     <Box  style={{
                         fontSize: "27px",
                         border:" 2px #D7B14A"

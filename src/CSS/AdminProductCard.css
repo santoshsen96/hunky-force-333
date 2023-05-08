@@ -1,4 +1,4 @@
-.card{
+.cardd{
     position: relative;
     margin-top: 20px;
     margin: auto;
@@ -7,11 +7,11 @@
     /* border: 1px solid black; */
     box-sizing: border-box;
 }
-.card img{
+.cardd img{
     width: 100%;
     height: 430px;
 }
-.card button{
+.cardd button{
    position: absolute;
    top: 78%;
   left: 85%;
@@ -28,11 +28,11 @@
   border-radius: 50%;
   font-family: Arial, Helvetica, sans-serif;
 }
-.card button:hover{
+.cardd button:hover{
     background-color: black;
     color: white;
 }
-.card div{
+.cardd div{
   position: absolute;
   top: 8%;
   left: 5%;
@@ -49,20 +49,20 @@
   height: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.card p{
+.cardd p{
     font-weight: bolder;
     font-size: 20px;
     color: brown;
     font-family: Arial, Helvetica, sans-serif;
 }
-.card h3{
+.cardd h3{
     font-size: 14px;
     color:#546E7A;
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 @media screen and (min-width:0px) and (max-width:500px){
-.card{
+.cardd{
     margin: auto;
 }
 }

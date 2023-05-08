@@ -11,6 +11,7 @@ export const AdminProductsWatches = () => {
   const [searchParams]=useSearchParams()
   const dispatch=useDispatch()
   const location = useLocation()
+  const toast=useToast()
   const {products} = useSelector((store)=>store.AdminProduct)
 
   let obj = {
@@ -23,7 +24,7 @@ useEffect(()=>{
     dispatch(getProductsWatch(obj))
   },[location.search,products])
 
-const toast=useToast()
+
 const handleDelete=(id)=>{
     dispatch(DeleteProductWatch(id))
     return toast({

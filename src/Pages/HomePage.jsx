@@ -3,6 +3,7 @@ import "./Homepage.css";
 import {MdKeyboardArrowLeft} from "react-icons/md";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import { Link } from 'react-router-dom';
+import Footer from '../Components/Footer';
 
 export const HomePage = (props) => {
 
@@ -142,8 +143,11 @@ With over 100 thousand downloads, the CaratLane app has emerged to be one of the
     </div>
 </div>
 
-
+<div>
+    <Footer/>
+</div>
 </>
+
   )
 }
 

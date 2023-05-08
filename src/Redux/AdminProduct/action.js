@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { ADD_PRODUCT_SUCCESS, DELETE_PRODUCT_SUCCESS, EDIT_PRODUCT_SUCCESS, GET_PRODUCT_SUCCESS, PATCH_PRODUCT_SUCCESS, PRODUCT_FAILURE, PRODUCT_REQUEST } from './actionTypes'
+import { ADD_PRODUCT_SUCCESS, DELETE_PRODUCT_SUCCESS, EDIT_PRODUCT_SUCCESS, GET_PRODUCT_SUCCESS, PRODUCT_FAILURE, PRODUCT_REQUEST } from './actionTypes'
 
 //watches
 export const getProductsWatch=(paramObj)=>(dispatch)=>{
@@ -51,12 +51,12 @@ export const addProductWatch=(data)=>(dispatch)=>{
     })
 }
 
-// for post men product to endpoint product
+// for post watch to endpoint product
 
-export const addProductMenToProduct=(data)=>(dispatch)=>{
+export const addProductWatchToProduct=(data)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQUEST})
 
-    axios.post("https://asos-of6d.onrender.com/products",data).then((res)=>{
+    axios.post("http://localhost:8080/Products",data).then((res)=>{
         dispatch({type:ADD_PRODUCT_SUCCESS,payload:res.data})
         console.log(res)
     }).catch(()=>{
@@ -66,9 +66,9 @@ export const addProductMenToProduct=(data)=>(dispatch)=>{
 
 //edit to endpoint products
 
-export const editProductMenToProduct=(data,id)=>(dispatch)=>{
+export const editProductWatchToProduct=(data,id)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQUEST})
-    axios.patch(`https://asos-of6d.onrender.com/products/${id}`,data).then((res)=>{
+    axios.patch(`http://localhost:8080/Products/${id}`,data).then((res)=>{
         dispatch({type:EDIT_PRODUCT_SUCCESS,payload:res.data})
         console.log(res)
     }).catch(()=>{
@@ -77,9 +77,9 @@ export const editProductMenToProduct=(data,id)=>(dispatch)=>{
 }
 //edit
 
-export const editProductMen=(data,id)=>(dispatch)=>{
+export const editProductWatch=(data,id)=>(dispatch)=>{
     dispatch({type:PRODUCT_REQUEST})
-    axios.patch(`https://asos-of6d.onrender.com/men/${id}`,data).then((res)=>{
+    axios.patch(`http://localhost:8080/watches/${id}`,data).then((res)=>{
         dispatch({type:EDIT_PRODUCT_SUCCESS,payload:res.data})
         console.log(res)
     }).catch(()=>{
@@ -124,15 +124,4 @@ export const getOrder=(paramObj)=>(dispatch)=>{
 }
 
 
-//for edit men product
-// export const editProduct=(dataObj,id)=>(dispatch)=>{
-//     dispatch({type:PRODUCT_REQUEST})
 
-//     return axios.patch(`https://exuberant-pink-jewelry.cyclic.app/men/${id}`,dataObj)
-//     .then((res)=>{
-//        dispatch({type:PATCH_PRODUCT_SUCCESS})
-//     })
-//     .catch(()=>{
-//        dispatch({type:PRODUCT_FAILURE})
-//     })
-// }

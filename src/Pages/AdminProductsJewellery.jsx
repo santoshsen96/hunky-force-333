@@ -1,7 +1,7 @@
 import { Box, Button, Center, Flex, Stack, useToast } from '@chakra-ui/react'
 import React, { useEffect } from 'react'
 import Adminsidebar from '../Components/AdminSideBar'
-import "../CSS/Admindashboard.css"
+//import "../CSS/Admindashboard.css"
 import { useDispatch, useSelector } from 'react-redux'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
 import { getProductsjewellery } from '../Redux/AdminProduct/action'

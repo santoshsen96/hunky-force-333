@@ -19,7 +19,7 @@ const AdminProductcard = ({id,title,image,brand,price,category,gender,discount})
 //   }
   return (
     <Link to={`/${id}`}>
-      <div className="card">
+      <div className="cardd">
         <img src={image} alt={title} width={20} height={2} />
         <div>-{discount}</div>
         
