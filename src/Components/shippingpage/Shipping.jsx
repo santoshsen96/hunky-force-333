@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Shipping.scss";
+import Footer from "../Footer";
 
 export const setData = (key, data) => {
   localStorage.setItem(key, JSON.stringify(data));
 };
 
 function Shipping() {
-//   let payment_total = localStorage.getItem("payment_total");
+  //   let payment_total = localStorage.getItem("payment_total");
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
   const [address1, setAddress1] = useState("");
@@ -121,6 +122,7 @@ function Shipping() {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

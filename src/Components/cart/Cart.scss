@@ -5,7 +5,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 99;
+  z-index: 1000;
   display: flex;
   justify-content: flex-end;
   .cart-content {
@@ -79,6 +79,49 @@
         // }
       }
     }
+    .cart-footer {
+      margin-top: 35vh;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      .subtotal {
+        padding: 20px 15px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-between;
+        .text {
+          margin-bottom: 0;
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+          &.total {
+            color: #e5aa70;
+          }
+        }
+      }
+      .button {
+        padding: 20px 15px;
+        border: none;
+        .checkout-cta {
+          outline: 0;
+          border: 2px solid #e5aa70;
+          height: 50px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          font-size: 16px;
+          color: white;
+          background-image: linear-gradient(-45deg, #6ba9eb, skyblue);
+          text-transform: uppercase;
+          &:hover {
+            background-image: linear-gradient(-45deg, #fbc57d, skyblue);
+          }
+          svg {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -90,48 +133,3 @@
     transform: translateX(0);
   }
 }
-
-//.cart-content {
-//     width: 100%;
-//     height: 100%;
-//     background: white;
-//     position: relative;
-//     z-index: 1;
-//     display: flex;
-//     flex-direction: column;
-//     transform: translateX(100%);
-//     animation: slideCartWindow 0.3s ease forwards;
-//     @include md {
-//       width: 340px;
-//     }
-//     .cart-header {
-//       display: flex;
-//       align-items: center;
-//       justify-content: flex-end;
-//       padding: 20px 15px;
-//       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-//       .heading {
-//         flex-grow: 1;
-//         margin-bottom: 0;
-//         font-size: 20px;
-//         font-weight: 700;
-//         text-transform: uppercase;
-//       }
-//       .close-btn {
-//         display: flex;
-//         align-items: center;
-//         gap: 5px;
-//         cursor: pointer;
-//         svg {
-//           font-size: 18px;
-//         }
-//         .text {
-//           text-transform: uppercase;
-//           font-size: 14px;
-//         }
-//         &:hover {
-//           opacity: 0.5;
-//         }
-//       }
-//     }
-//   }

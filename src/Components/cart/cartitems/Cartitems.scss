@@ -1,4 +1,6 @@
 .cart-products {
+  display: flex;
+  flex-direction: column;
   flex-grow: 1;
   .product-container {
     padding: 20px 15px;
