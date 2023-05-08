@@ -3,7 +3,7 @@
     height:500px;
     width:100%;
     margin:auto;
-    border:0px solid black;
+    border:2px solid black;
 }
 
 /* new collection section */
@@ -335,3 +335,105 @@ background-color:black;
     color:black;
 
 }
+
+
+/* media query */
+/* top banner section */
+     @media all and (min-width:451px) and (max-width:750px) {
+    .topsection{
+       height:300px;
+    }
+}
+
+@media all and (min-width:150px) and (max-width:470px) {
+    .topsection{
+        height:200px;
+        
+     }
+     
+    }
+/* new collection section */
+
+     @media all and (min-width:451px) and (max-width:750px) {
+    .new{
+       flex-direction: column;
+    }
+    .new>h1{
+        flex-direction: column;
+    
+    }
+    
+    
+}
+
+@media all and (min-width:150px) and (max-width:470px) {
+    .new{
+        flex-direction:column;
+        
+     }
+     .new>h1{
+
+        text-align:center;
+     }
+     .new>p{
+        text-align:center;
+     }
+    }
+    /* bessellers */
+    @media all and (min-width:451px) and (max-width:750px) {
+    .bessellers{
+       flex-direction: column;
+    }
+    .bessellers>h1,p{
+        text-align:left;
+    }
+}
+
+@media all and (min-width:150px) and (max-width:470px) {
+    .bessellers{
+       flex-direction: column;
+    }
+    .bessellers>h1,p{
+        text-align:left;
+    }
+     
+    }
+
+    /* grid */
+     @media all and (min-width:451px) and (max-width:750px) {
+    .grid{
+       grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
+@media all and (min-width:150px) and (max-width:470px) {
+    .grid{
+    grid-template-columns: repeat(1,1fr);
+    }
+     
+    }
+    /* gifts */
+    @media all and (min-width:451px) and (max-width:750px) {
+    .gifts{
+       grid-template-columns: repeat(2,1fr);
+       text-align:center;
+    }
+    .gifts>div h1,h5{
+        text-align:center;
+    }
+    .gifts>div img{
+        width:100%;
+    }
+    
+}
+
+@media all and (min-width:150px) and (max-width:470px) {
+    .gifts{
+    grid-template-columns: repeat(1,1fr);
+    text-align:center;
+    }
+     .gifts>div h1,h5{
+        text-align:center;
+     }
+    }
