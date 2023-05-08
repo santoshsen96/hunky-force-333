@@ -6,10 +6,11 @@
       "title": "Men's Promaster Diver Polyurethane Dark Blue Dial Watch",
       "brand": "Citizen",
       "gender": "Mens",
-      "price": 224.95,
-      "discount": "40%",
+      "price": "221",
+      "discount": "20",
       "category": "Mens Watch",
-      "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection."
+      "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection.",
+      "size": "s"
     },
     {
       "id": 52,
@@ -83,10 +84,11 @@
       "title": "Men's Slim Runway Stainless Steel Black Dial Watch",
       "brand": "Michael Kors",
       "gender": "Mens",
-      "price": 108.98,
-      "discount": "46%",
+      "price": "100",
+      "discount": "20",
       "category": "Mens Watch",
-      "description": "The Michael Kors Slim Runway series watch features a stainless steel 44 mm case, with a fixed bezel a black dial and a scratch resistant mineral crystal.The 21 mm stainless steel band is fitted with a deployment with push button release clasp .This beautiful wristwatch, powered by quartz movement, supports: hour, minute, second functions.This watch has a water resistance of up to 165 feet/50 meters, suitable for short periods of recreational swimming, but not diving or snorkeling.This stylish timepiece is sure to complete any man's collection."
+      "description": "The Michael Kors Slim Runway series watch features a stainless steel 44 mm case, with a fixed bezel a black dial and a scratch resistant mineral crystal.The 21 mm stainless steel band is fitted with a deployment with push button release clasp .This beautiful wristwatch, powered by quartz movement, supports: hour, minute, second functions.This watch has a water resistance of up to 165 feet/50 meters, suitable for short periods of recreational swimming, but not diving or snorkeling.This stylish timepiece is sure to complete any man's collection.",
+      "size": "s"
     },
     {
       "id": 59,
@@ -538,7 +540,8 @@
       "discount": "60%",
       "category": "Womens Watch",
       "description": "The Mathey-Tissot Mathey III series watch features a stainless steel 32 mm case, with a fixed bezel a white dial and a scratch resistant mineral crystal.The 16 mm stainless steel band is fitted with a fold over clasp .This beautiful wristwatch, powered by a ronda caliber 585, quartz movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 100 feet/30 meters, suitable for short periods of recreational swimming.This stylish Swiss-made timepiece is sure to complete any woman's collection."
-    },{
+    },
+    {
       "id": 100,
       "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/w/o/womens-riley-stainless-steel-silver-dial-watch-fossil-fses3202_1.jpg",
       "title": "Women's Riley Silver-Tone Steel Bracelet and Dial",
@@ -1122,10 +1125,7 @@
       "category": "Rings",
       "description": "Dazzling Divisha Gold Band",
       "weight": 10
-    }
-  ],
-  "user": [],
-  "Products": [
+    },
     {
       "id": 51,
       "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/m/e/mens-promaster-diver-polyurethane-dark-blue-dial-watch-citizen-czbn0151-09l_1.jpg",
@@ -1136,6 +1136,21 @@
       "discount": "40%",
       "category": "Mens Watch",
       "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection."
+    }
+  ],
+  "user": [],
+  "Products": [
+    {
+      "id": 51,
+      "image": "https://www.worldofwatches.com/media/catalog/product/cache/6275b0637049ab4262e9abf2e63a6f54/m/e/mens-promaster-diver-polyurethane-dark-blue-dial-watch-citizen-czbn0151-09l_1.jpg",
+      "title": "Men's Promaster Diver Polyurethane Dark Blue Dial Watch",
+      "brand": "Citizen",
+      "gender": "Mens",
+      "price": "221",
+      "discount": "20",
+      "category": "Mens Watch",
+      "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection.",
+      "size": "s"
     },
     {
       "id": 52,
@@ -1209,10 +1224,11 @@
       "title": "Men's Slim Runway Stainless Steel Black Dial Watch",
       "brand": "Michael Kors",
       "gender": "Mens",
-      "price": 108.98,
-      "discount": "46%",
+      "price": "100",
+      "discount": "20",
       "category": "Mens Watch",
-      "description": "The Michael Kors Slim Runway series watch features a stainless steel 44 mm case, with a fixed bezel a black dial and a scratch resistant mineral crystal.The 21 mm stainless steel band is fitted with a deployment with push button release clasp .This beautiful wristwatch, powered by quartz movement, supports: hour, minute, second functions.This watch has a water resistance of up to 165 feet/50 meters, suitable for short periods of recreational swimming, but not diving or snorkeling.This stylish timepiece is sure to complete any man's collection."
+      "description": "The Michael Kors Slim Runway series watch features a stainless steel 44 mm case, with a fixed bezel a black dial and a scratch resistant mineral crystal.The 21 mm stainless steel band is fitted with a deployment with push button release clasp .This beautiful wristwatch, powered by quartz movement, supports: hour, minute, second functions.This watch has a water resistance of up to 165 feet/50 meters, suitable for short periods of recreational swimming, but not diving or snorkeling.This stylish timepiece is sure to complete any man's collection.",
+      "size": "s"
     },
     {
       "id": 59,
@@ -2195,6 +2211,28 @@
       "category": "Earrings",
       "description": "Dazzling Divisha Gold Band",
       "weight": 10
+    },
+    {
+      "id": "102",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80",
+      "title": "qwerty",
+      "brand": "zxc",
+      "discount": "10",
+      "gender": "men",
+      "size": "s",
+      "price": "11",
+      "category": "Mens Watch"
+    },
+    {
+      "id": "103",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHx8MHx8&w=1000&q=80",
+      "title": "mmm",
+      "brand": "Nike",
+      "discount": "12",
+      "gender": "men",
+      "size": "s",
+      "price": "1",
+      "category": "Mens Watch"
     }
   ]
 }
