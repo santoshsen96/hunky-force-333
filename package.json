@@ -26,7 +26,6 @@
     "react-slick": "^0.29.0",
     "redux": "^4.2.1",
     "redux-thunk": "^2.4.2",
-    "sass": "^1.62.1",
     "server": "^1.0.38",
     "slick-carousel": "^1.8.1",
     "styled": "^1.0.0",
@@ -57,5 +56,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
