@@ -19,18 +19,18 @@ const WatchList = () => {
     >
       {watches?.map((item) => {
         return (
-          <div className="card" key={item.id}>
-            <div className="card-image">
+          <div className="card-watches" key={item.id}>
+            <div className="card-image-watches">
               <img src={item.image} alt={item.title} />
             </div>
-            <div className="category"> {item.brand} </div>
+            <div className="category-watches"> {item.brand} </div>
             <div
-              className="heading"
+              className="heading-watches"
               onClick={() => navigate(`/Watches/${item.id}`)}
             >
               {" "}
               {item.title}
-              <div className="author"> ${item.price}</div>
+              <div className="author-watches"> ${item.price}</div>
             </div>
           </div>
         );

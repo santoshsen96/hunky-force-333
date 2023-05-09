@@ -6,7 +6,7 @@
       "title": "Men's Promaster Diver Polyurethane Dark Blue Dial Watch",
       "brand": "Citizen",
       "gender": "Mens",
-      "price": "221",
+      "price": "225",
       "discount": "20",
       "category": "Mens Watch",
       "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection.",
@@ -1099,6 +1099,19 @@
       "discount": "46%",
       "category": "Mens Watch",
       "description": "The Diesel Mega Chief series watch features a stainless steel 59 mm x 51 mm case, with a fixed bezel a champange dial and a scratch resistant mineral crystal.Chronograph - sub-dials displaying: 60 second, 60 minute and 1/10th of a second.The 26 mm stainless steel band is fitted with a deployment with push button release clasp .This beautiful wristwatch, powered by quartz movement, supports: chronograph, date, hour, minute, second functions.This watch has a water resistance of up to 330 feet/100 meters, suitable for recreational surfing, swimming, snorkeling, sailing and water sports.This stylish timepiece is sure to complete any man's collection."
+    },
+    {
+      "id": 2,
+      "image": "https://image.reliancejewels.com/Jewels/images/productImages/433/floral-design-14-kt-gold-diamond-ring-for-women-large_9",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 10215,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
     }
   ],
   "user": [
@@ -1118,7 +1131,7 @@
       "title": "Men's Promaster Diver Polyurethane Dark Blue Dial Watch",
       "brand": "Citizen",
       "gender": "Mens",
-      "price": "221",
+      "price": "225",
       "discount": "20",
       "category": "Mens Watch",
       "description": "The Citizen Promaster Diver series watch features a stainless steel 44 mm case, with a uni-directional rotating bezel a dark blue dial and a scratch resistant mineral crystal.The 20 mm polyurethane band is fitted with a tang clasp .This beautiful wristwatch, powered by a citizen caliber eco-drive e168, Japan made eco-drive movement, supports: date, hour, minute, second functions.This watch has a water resistance of up to 660 feet/200 meters, suitable for short periods of recreational swimming.This stylish timepiece is sure to complete any man's collection.",
@@ -2204,6 +2217,28 @@
       "gender": "men",
       "size": "s",
       "price": "1",
+      "category": "Mens Watch"
+    },
+    {
+      "id": "677",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPQQL2RxlJlPLeIMtK80ttEj8YNhwohIYqM6NlKS6PUtyASHzc-f_e2tPs6t5cfjxJ3U&usqp=CAU",
+      "title": "Mens watch",
+      "brand": "dfsrg",
+      "discount": "33",
+      "gender": "men",
+      "size": "s",
+      "price": "1222",
+      "category": "mens watch"
+    },
+    {
+      "id": "344",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUPQQL2RxlJlPLeIMtK80ttEj8YNhwohIYqM6NlKS6PUtyASHzc-f_e2tPs6t5cfjxJ3U&usqp=CAU",
+      "title": "asadas",
+      "brand": "adsds",
+      "discount": "10",
+      "gender": "xcvv",
+      "size": "sdadda",
+      "price": "12222",
       "category": "Mens Watch"
     }
   ]
