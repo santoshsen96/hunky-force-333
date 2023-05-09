@@ -44,7 +44,7 @@ const Cart = ({ setshowcart }) => {
         </div>
         {cartitems.length > 0 ? (
           <>
-            <div style={{ overflowY: "scroll", height: "700px" }}>
+            <div style={{ overflowY: "scroll", height: "28rem" }}>
               {cartitems?.map((it) => (
                 <Cartitems key={it.id} {...it} setCartitems={setCartitems} />
               ))}

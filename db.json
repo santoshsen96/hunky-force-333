@@ -1112,6 +1112,45 @@
       "category": "Rings",
       "description": "Dazzling Divisha Gold Band",
       "weight": 10
+    },
+    {
+      "id": 6,
+      "image": "https://i.pinimg.com/736x/56/37/66/56376681bea0c4135a00f87520e9d02e.jpg",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 14875,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
+    },
+    {
+      "id": 4,
+      "image": "https://staticimg.titan.co.in/Tanishq/Catalog/501050FEOAA11_1.jpg",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 14215,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
+    },
+    {
+      "id": 7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHei71aMUD76ff0UU-SKdTRdd2fPD6sA8U5Q&usqp=CAU",
+      "title": "Dazzling Divisha Gold Band",
+      "brand": "Messika",
+      "discount": 20,
+      "gender": "womens",
+      "size": "S",
+      "price": 17435,
+      "category": "Rings",
+      "description": "Dazzling Divisha Gold Band",
+      "weight": 10
     }
   ],
   "user": [
